@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.control-block {
+  width: 100%;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.control-block > button {
+  margin-right: 30px;
+}
+
+#canvas_wrapper {
+  flex-grow: 1;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
